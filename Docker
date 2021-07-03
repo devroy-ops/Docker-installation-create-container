@@ -1,0 +1,51 @@
+step-1 yum update -y
+Step-2 yum install docker -y
+step-3 which docker(check installation)
+step-4 docker -v(version check)
+step-5 service docker status(check services status)
+step-6 docker info(check service & status)
+step-7 service docker start(start docker)
+step-8 docker images(check images)
+step-9 docker ps(check running container)
+step-10 google chorme(hub.docker.com)(search ubuntu)
+step-11 docker run -it ubuntu /bin/bash
+step-12 cat /etc/os-release(check os release)
+step-13 exit(exit from container)
+step-14 docker run -it ubuntu /bin/bash(create new container)
+step-15 exit
+step-16 docker ps -a(check running & stop container)
+step-17 docker search ubuntu(check all ubuntu images)
+
+step-18 docker run -it --name devashish ubuntu /bin/bash(create own name container)
+step-19 docker ps -a (check running & stop container)
+step-20 docker start devashish(container start)
+step-21 docker attach devashish(enter into contianer)
+step-22 exit
+step-23 docker stop devashish(container stop)
+step-24 docker rm devashish(delete container)
+step-25 docker stop $(docker ps -a -q)
+step-26 docker rm $(docker pas -a -q)
+step-27 docker rmi -f $(docker images -q)
+
+
+
+( CENTOS IMAGES)
+step-1 docker run -it centos /bin/bash
+step-2 docker images(check images how much images you have)
+step-3 docker run -it centos /bin/bash
+step-3 cat /etc/os-release(check os release)
+step-4 docker ps(check running container)
+
+
+(JENKINS IMAGES)
+step-1 docker pull jenkins(only pull on container for further need)
+
+
+
+(CHEF IMAGES)
+Step-1 docker pull chef/chefdk
+step-2 docker run -it chef/chefdk /bin/bash
+step-3 which chef(check chef)
+step-4 ls (for more details)
+step-5 chef -v(check versions)
+ 
